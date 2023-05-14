@@ -3,3 +3,9 @@
     gap: 30px;
     margin-top: 50px;
 }
+
+@media(max-width: 768px) {
+    .box-project {
+        height: 50%;
+    }
+}

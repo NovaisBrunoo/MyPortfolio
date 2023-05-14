@@ -34,8 +34,6 @@
   border-radius: 6px;
   background-color: #4F4F4F;
   transition: transform 1s ease-in-out;
-
-
 }
 
 .about-work {
@@ -51,4 +49,41 @@
 .work-fullstack:not(:hover) {
   transition: transform 1s ease-in-out;
   transform: scale(1);
+}
+
+@media (max-width: 768px) {
+  .info {
+    margin-top: 100px;
+    height: 100%;
+  }
+
+  .border-modal {
+    margin-top: 25px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .border-modal img {
+    width: 95%;
+    height: 95%;
+  }
+
+  .work-fullstack-mobile {
+    width: 450px;
+    height: 100px;
+    border-radius: 6px;
+    background-color: #4F4F4F;
+    transition: transform 1s ease-in-out;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .work-fullstack-mobile:hover {
+    transform: scale(1.1);
+  }
+
+  .work-fullstack-mobile:not(:hover) {
+    transition: transform 1s ease-in-out;
+    transform: scale(1);
+  }
 }
