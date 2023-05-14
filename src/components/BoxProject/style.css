@@ -1,0 +1,15 @@
+.box-modal {
+    width: 373px;
+    height: 567px;
+    border-radius: 20px;
+    background-color: #363636;
+}
+
+.box-modal p {
+    width: 80%;
+}
+
+.box-link {
+    width: 100%;
+    margin-bottom: 15px;
+}

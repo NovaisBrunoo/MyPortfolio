@@ -1,0 +1,26 @@
+.header {
+    background-color: #1E1E1E;
+}
+
+.header li {
+    list-style: none;
+    margin-right: 62px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    cursor: pointer;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #ffffff00, #ffffff00) 1;
+    transition: 1s;
+}
+
+.header li:hover {
+    background-clip: border-box;
+    border-image: linear-gradient(to right, #E70FAA, #00C0FD) 1;
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-timing-function: ease-in-out;
+}
