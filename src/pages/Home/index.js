@@ -16,7 +16,7 @@ export default function Home() {
         Aos.init({ duration: 2000 })
     })
     return (
-        <div className='container'>
+        <div className='container-pages'>
             <Header />
             <LayoutHome />
             <LayoutAbout />
