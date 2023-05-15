@@ -30,4 +30,5 @@ code {
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  overflow-x: hidden;
 }

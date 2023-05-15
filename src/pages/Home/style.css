@@ -1,5 +1,6 @@
 .container-pages {
     overflow-x: none;
+    overflow-x: hidden;
 
 }
 
@@ -69,6 +70,8 @@
 
     .container-tech {
         gap: 15px;
+        height: 650px;
+        margin-bottom: 0;
     }
 
     .container-tech img {

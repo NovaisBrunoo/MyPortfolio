@@ -7,8 +7,10 @@ export default function LayoutProject() {
     return (
 
         <div className='container flex-colum'>
-            <h1 data-aos='fade-right'>Project</h1>
-            <strong data-aos='fade-left'>Things I’ve built so far</strong>
+            <div className='project-title flex-colum'>
+                <h1 data-aos='fade-right'>Project</h1>
+                <strong data-aos='fade-left'>Things I’ve built so far</strong>
+            </div>
             <div className='box-project flex' >
                 <BoxProject />
                 <BoxProject />
