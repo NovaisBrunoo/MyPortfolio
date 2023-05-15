@@ -14,9 +14,10 @@ import iconvscode from '../../../assets/icons/icon-vscode.svg'
 export default function LayoutTech() {
     return (
         <div className='container flex-colum'>
-            <h1 data-aos='fade-right'>My Tech Stack</h1>
-            <strong data-aos='fade-right'>Technologies I’ve been working with recently</strong>
-
+            <div className='tech-title flex-colum'>
+                <h1 data-aos='fade-right'>My Tech Stack</h1>
+                <strong data-aos='fade-right'>Technologies I’ve been working with recently</strong>
+            </div>
             <div className='container-tech flex' data-aos='fade-up'>
                 <img src={iconbootstrap} alt='logo bootstrap' />
                 <img src={iconcss} alt='logo do css' />

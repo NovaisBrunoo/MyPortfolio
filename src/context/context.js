@@ -5,7 +5,7 @@ import { createContext } from "react";
 const ContextGlobal = createContext({});
 
 export function ContextProvider({ children }) {
-    const [contextTest, setContextTest] = useState('test')
+    const [contextTest, setContextTest] = useState('')
 
     return (
         <ContextGlobal.Provider value={{ contextTest, setContextTest }}>

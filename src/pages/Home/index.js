@@ -16,13 +16,13 @@ export default function Home() {
         Aos.init({ duration: 2000 })
     })
     return (
-        <>
+        <div className='container'>
             <Header />
             <LayoutHome />
             <LayoutAbout />
             <LayoutTech />
             <LayoutProject />
             <Footer />
-        </>
+        </div>
     )
 }
