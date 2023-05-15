@@ -1,5 +1,5 @@
 .container-pages {
-    overflow-x: scroll(none);
+    overflow-x: none;
 }
 
 @media(max-width:600px) {
