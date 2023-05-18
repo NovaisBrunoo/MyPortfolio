@@ -1,14 +1,18 @@
 import './style.css';
 import '../../../style/utilityClass.css'
+import { useHooke } from '../../../context/context';
 
 
 export default function LayoutAbout() {
+  const { pageAbout } = useHooke()
   return (
 
-    <div className='container flex-colum' >
+    <div className='container flex-colum' id={pageAbout}>
       <div className='about flex-colum '>
         <h1 data-aos='fade-right'>About</h1>
-        <p className='about-p' data-aos='fade-left'>Olá, sou Bruno Novais, um entusiasta de desenvolvimento de software em transição de carreira. Com experiência em manutenção elétrica e atualmente matriculado no curso de Desenvolvedor de Software da Cubos Academy, possuo habilidades sólidas em programação, especialmente em Java, HTML, CSS, PostgrSQL , React , JavaScript. Sou proativo, determinado e capaz de trabalhar tanto de forma autônoma quanto em equipe. Estou animado para contribuir com meu comprometimento, motivação e rápido aprendizado em sua empresa</p>
+        <p className='about-p' data-aos='fade-left'>
+          Olá, sou Bruno Novais, um entusiasta de desenvolvimento de software em transição de carreira. Com experiência em manutenção elétrica e atualmente matriculado no curso de Desenvolvedor de Software da Cubos Academy, possuo habilidades sólidas em programação, especialmente em Java, HTML, CSS, PostgrSQL , React , JavaScript. Sou proativo, determinado e capaz de trabalhar tanto de forma autônoma quanto em equipe. Estou animado para contribuir com meu comprometimento, motivação e rápido aprendizado em sua empresa
+        </p>
       </div>
       <div className='about-info flex-sa-row' data-aos='fade-up' >
 

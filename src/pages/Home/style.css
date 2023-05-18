@@ -83,6 +83,14 @@
 }
 
 @media(max-width:425px) {
+    .header {
+        background-color: #1E1E1E;
+        width: 100vw;
+        position: fixed;
+        z-index: 1;
+
+    }
+
     .about-work {
         display: flex;
         justify-content: center;

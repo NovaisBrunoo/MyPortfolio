@@ -22,3 +22,14 @@
     -webkit-text-fill-color: transparent;
     transition-timing-function: ease-in-out;
 }
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    padding: 5px 15px;
+
+}

@@ -3,12 +3,15 @@ import perfilavatar from '../../../assets/img/perfil-avatar.svg'
 import '../../../style/utilityClass.css'
 import logodev from '../../../assets/src/logodev2.svg'
 import logo from '../../../assets/src/myLogo.svg'
+import { useHooke } from '../../../context/context';
 
 
 export default function LayoutHome() {
+    const { pageHome } = useHooke()
+
     return (
 
-        <div className='container flex ' data-aos='fade-up'>
+        <div className='container flex ' data-aos='fade-up' id={pageHome}>
             <div className='info flex'  >
                 <div className='info-text flex'>
                     <h1>

@@ -10,10 +10,13 @@ import iconjavascript from '../../../assets/icons/icon-javascript.svg'
 import iconpostgres from '../../../assets/icons/icon-postgres.svg'
 import iconreact from '../../../assets/icons/icon-react.svg'
 import iconvscode from '../../../assets/icons/icon-vscode.svg'
+import { useHooke } from '../../../context/context';
 
 export default function LayoutTech() {
+    const { pageTech } = useHooke()
+
     return (
-        <div className='container flex-colum'>
+        <div className='container flex-colum' id={pageTech}>
             <div className='tech-title flex-colum'>
                 <h1 data-aos='fade-right'>My Tech Stack</h1>
                 <strong data-aos='fade-right'>Technologies I’ve been working with recently</strong>

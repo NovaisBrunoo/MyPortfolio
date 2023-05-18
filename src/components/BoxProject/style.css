@@ -14,3 +14,21 @@
     width: 100%;
     margin-bottom: 15px;
 }
+
+.circule {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3E9BD5;
+    margin-right: 15px;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}

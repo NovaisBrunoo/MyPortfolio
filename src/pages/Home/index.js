@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 
 export default function Home() {
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 2500 })
     })
     return (
         <div className='container-pages'>
